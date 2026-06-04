@@ -28,8 +28,8 @@ const b2 = new B2({
   applicationKey: process.env.B2_KEY_SECRET || 'K005K1EPsyXa55e/T9v1fukdGuZPVzA',
 });
 
-const BUCKET_ID = process.env.B2_BUCKET_ID || 'YOUR_BUCKET_ID_HERE';
-const BUCKET_NAME = process.env.B2_BUCKET_NAME || 'YOUR_BUCKET_NAME_HERE';
+const BUCKET_ID = process.env.B2_BUCKET_ID || '6be6c1752bce5e5796ee0d18';
+const BUCKET_NAME = process.env.B2_BUCKET_NAME || 'skillstreet-database';
 
 // Platform commission rate (10%)
 const COMMISSION_RATE = 10;
