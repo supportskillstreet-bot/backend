@@ -4,12 +4,7 @@ const multer = require('multer');
 const B2 = require('backblaze-b2');
 const crypto = require('crypto');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY || 'sk_test_your_stripe_secret_key');
-app.use(cors({
-  origin: [
-    'https://skillstreet-testing.vercel.app/'
-  ],
-  credentials: true
-}));
+
 
 
 // Firebase Admin - optional for now, using mock for file uploads
