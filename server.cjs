@@ -10,6 +10,7 @@ app.use(cors({
   ],
   credentials: true
 }));
+app.use(express.json());
 
 // Firebase Admin - optional for now, using mock for file uploads
 let db = null;
