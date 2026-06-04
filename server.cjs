@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY || 'sk_test_your_stripe_secret_key');
 app.use(cors({
   origin: [
-    ''
+    'https://skillstreet-testing.vercel.app/'
   ],
   credentials: true
 }));
